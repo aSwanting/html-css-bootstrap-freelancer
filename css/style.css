@@ -1,0 +1,18 @@
+:root {
+    --layout-dark-blue: #2C3E50;
+    --layout-light-green: #1ABC9C;
+    --card-red: #BA4B63;
+    --card-light-blue: #1EA4B6;
+    --card-dark: #140F0F;
+    --card-blue: #1C83C1;
+    --card-deep-blue: #0E38B5;
+    --card-beige: #CCB2A3;
+
+}
+
+/* Header */
+
+.page-header {
+    background-color: var(--layout-dark-blue);
+}
+
