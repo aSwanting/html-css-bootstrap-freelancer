@@ -50,6 +50,25 @@
     border-radius: 9999px;
 }
 
+.button-light {
+    background-color: var(--layout-light-green);
+    color: rgb(255, 255, 255);
+    border: 1px solid currentColor;    
+    border-radius: 5px;
+    padding: 0 10px;
+    line-height: 30px;    
+    transition: 200ms all;
+}
+
+.button-light:hover {
+    background-color: white;
+    color: var(--layout-light-green);
+    border: 1px solid currentColor;    
+}
+
+::placeholder {
+    color: var(--layout-dark-blue);
+  }
 
 /* debug */
 
