@@ -7,12 +7,44 @@
     --card-blue: #1C83C1;
     --card-deep-blue: #0E38B5;
     --card-beige: #CCB2A3;
+    --footer-blue: #3A546D;
 
 }
 
-/* Header */
+/* Header, Footer */
 
-.page-header {
+.page-header,
+.footer-copyright {
     background-color: var(--layout-dark-blue);
 }
 
+.footer-contact {
+    background-color: var(--footer-blue);
+}
+
+/* Main */
+
+.hero,
+.about-me {
+    background-color: var(--layout-light-green);
+}
+
+.hero-img {
+    width: 235px;
+}
+
+
+
+/* debug */
+
+.debug .container {
+    border: 2px solid magenta;
+}
+
+.debug .row {
+    border: 2px solid rgb(119, 0, 255);
+}
+
+.debug .row>* {
+    border: 2px solid rgb(103, 148, 66);
+}

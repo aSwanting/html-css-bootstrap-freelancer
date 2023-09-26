@@ -13,16 +13,14 @@
     <script src="https://kit.fontawesome.com/a095a4bfbe.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="debug">
+<body class="!debug">
     <header class="page-header">
 
         <nav class="navbar navbar-expand-sm" data-bs-theme="dark">
-            <div class="container-fluid">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-semibold" href="#">Navbar</a>
 
-                <a class="navbar-brand" href="#">Navbar</a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -39,17 +37,86 @@
                         </li>
                     </ul>
                 </div>
-
-
             </div>
-
-
-
         </nav>
 
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main>
+
+        <section class="hero text-center text-uppercase text-white">
+            <div class="container py-5">
+                <div class="d-flex flex-column align-items-center gap-3">
+                    <img src="./img/avatar.svg" class="hero-img" alt="">
+                    <h1>Start Boolean</h1>
+                    <p>Lorem ipsum - sit amet - consectetur</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio text-center text-uppercase">
+            <div class="container py-5">
+                <h2 class="mb-4">Portfolio</h2>
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me text-white">
+            <div class="container py-5 px-5">
+                <h2 class="text-center text-uppercase mb-4">About</h2>
+                <div class="d-flex column-gap-4 flex-column flex-sm-row mb-4">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dicta delectus maxime perferendis molestias voluptates rem, error obcaecati! Cum, nihil? Sint laborum impedit voluptates vero culpa? Ea nemo dolor aperiam.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dicta delectus maxime perferendis molestias voluptates rem, error obcaecati! Cum, nihil? Sint laborum impedit voluptates vero culpa? Ea nemo dolor aperiam.</p>
+                </div>
+
+                <button type="button" class="btn btn-outline-light d-block mx-auto">Download</button>
+
+            </div>
+        </section>
+
+        <section class="contact-me text-uppercase">
+            <div class="container py-5">
+                <h2 class="text-center">Contact Me</h2>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+    <footer class="page-footer text-white text-center">
+
+        <section class="footer-contact py-4">
+            <p>Location</p>
+        </section>
+        <section class="footer-copyright py-4">
+            <p>Copyright</p>
+        </section>
+
+
+    </footer>
+
 </body>
 
 </html>
