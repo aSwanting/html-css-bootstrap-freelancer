@@ -33,6 +33,22 @@
     width: 235px;
 }
 
+.star-divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+}
+
+.star-divider::before,
+.star-divider::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+    border-radius: 9999px;
+}
 
 
 /* debug */
