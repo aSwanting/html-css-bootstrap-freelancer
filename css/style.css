@@ -1,14 +1,7 @@
 :root {
     --layout-dark-blue: #2C3E50;
     --layout-light-green: #1ABC9C;
-    --card-red: #BA4B63;
-    --card-light-blue: #1EA4B6;
-    --card-dark: #140F0F;
-    --card-blue: #1C83C1;
-    --card-deep-blue: #0E38B5;
-    --card-beige: #CCB2A3;
     --footer-blue: #3A546D;
-
 }
 
 /* Header, Footer */
@@ -68,6 +61,35 @@
 
 ::placeholder {
     color: var(--layout-dark-blue);
+  }
+
+  .footer-heading {
+    font-size: 16px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .footer-link {
+    color: var(--layout-light-green);
+  }
+
+  .footer-contact i {
+    border: 1px solid currentColor;
+    width: 32px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .copyright-text {
+    font-size: 10px;
   }
 
 /* debug */
